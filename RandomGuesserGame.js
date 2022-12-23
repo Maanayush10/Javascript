@@ -1,6 +1,6 @@
 //generating random number
 let c = Math.floor((Math.random() * 100) + 1);
-console.log(c);
+// console.log(c);   //-->if you want to see which random number is generated.
 
 let count = 1;
 
@@ -21,3 +21,5 @@ while (a != c) {
   }
 }
 console.log('Number of Tries: ', count);
+let score = 100 - (count);
+console.log('Score: ', score); //shows number of tries and the final score.
